@@ -2,7 +2,7 @@
 
 ### I created a set of custom LED lighting for my Burning Man Bicycle in 2017
 
-![](http://j.gifs.com/BLjYYN.gif)
+![](http://i.imgur.com/Sg2oe6T.gif)
 
 ![](http://i.imgur.com/OUkLi.gif)
 
