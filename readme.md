@@ -2,7 +2,9 @@
 
 ### I created a set of custom LED lighting for my Burning Man Bicycle in 2017
 
-<div style='position:relative;padding-bottom:61.224%;'><iframe src="//gifs.com/embed/burning-man-bicycle-lights-BLjYYN" frameborder="0" scrolling="no" width="588" height="360" style="backface-visibility: hidden; transform: scale(1); position: absolute; height: 100%; width: 100%;"></iframe></div>
+![](http://i.imgur.com/Sg2oe6T.gif)
+
+![](http://i.imgur.com/OUkLi.gif)
 
 #### Software
 
@@ -34,5 +36,3 @@ Hardware:
 [Flag pole]: https://www.amazon.com/Tusk-Whip-Replacement-Flag-Pole/dp/B01N35DALM  "Flag pole"
 [Flag pole spring]: https://www.amazon.com/Wheeler-Whip-Springy-Thingy-Mount/dp/B005HJL94A  "Flag pole spring"
 [Phat bike]: https://www.walmart.com/ip/26-Mongoose-Dolomite-Men-s-7-speed-Fat-Tire-Mountain-Bike-Navy-Blue-Red/29741123  "Phat bike"
-
-testing
