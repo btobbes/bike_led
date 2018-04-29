@@ -4,6 +4,8 @@
 
 ![](https://j.gifs.com/BLjYYN.gif)
 
+![](http://i.imgur.com/OUkLi.gif)
+
 #### Software
 
 The [Fast LED library] is a user friendly library to control WS2811 lighting with an Arduino.
