@@ -1,19 +1,19 @@
 #include <FastLED.h>
 
-#define DATA_PIN_FRAME 5
-#define DATA_PIN_MAST 7
-#define NUM_LEDS_FRAME 120
-#define NUM_LEDS_MAST 115
+#define DATA_PIN_FRAME  5
+#define DATA_PIN_MAST   7
+
+#define NUM_LEDS_FRAME  120
+#define NUM_LEDS_MAST   115
 
 #define LED_TYPE    WS2811
 #define COLOR_ORDER RGB
+
 CRGB leds_frame[NUM_LEDS_FRAME];
 CRGB leds_mast[NUM_LEDS_MAST];
 
 #define BRIGHTNESS  96
 #define FRAMES_PER_SECOND 120
-
-
 
 void setup() {
   delay(3000); // 3 second delay for recovery
@@ -21,6 +21,7 @@ void setup() {
   // tell FastLED about the LED strip configuration
   FastLED.addLeds<NEOPIXEL, DATA_PIN_FRAME>(leds_frame, NUM_LEDS_FRAME);
   FastLED.addLeds<NEOPIXEL, DATA_PIN_MAST>(leds_mast, NUM_LEDS_MAST);
+
   // set master brightness control
   FastLED.setBrightness(BRIGHTNESS);
 }
@@ -54,12 +55,15 @@ void loop()
 
 #define ARRAY_SIZE(A) (sizeof(A) / sizeof((A)[0]))
 
+// function to handle pattern looping if we want multiple patterns
+// note: this logic is currently unnecessary because we are only using one pattern
 void nextPattern()
 {
   // add one to the current pattern number, and wrap around at the end
   gCurrentPatternNumber = (gCurrentPatternNumber + 1) % ARRAY_SIZE( gPatterns);
 }
 
+// function to handle the pattern on the antenna mast
 void sinelon()
 {
   // a colored dot sweeping back and forth, with fading trails
@@ -68,6 +72,8 @@ void sinelon()
   leds_mast[pos] += CHSV( gHue, 255, 192);
 }
 
+// function to handle the pattern on the frame LED's
+// note: this is currently the same as the antenna pattern, but could be set to any arbitrary pattern
 void sinelon_frame()
 {
   // a colored dot sweeping back and forth, with fading trails
