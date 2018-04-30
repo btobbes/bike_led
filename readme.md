@@ -4,13 +4,13 @@
 
 ![](http://i.imgur.com/Sg2oe6T.gif)
 
-![](http://i.imgur.com/OUkLi.gif)
+<img src="/bike_led.gif?raw=true" width="200px">
 
 #### Software
 
 The [Fast LED library] is a user friendly library to control WS2811 lighting with an Arduino.
 
-[Fast LED library]: https://github.com/FastLED/FastLEDhttps://github.com/FastLED/FastLED  "Fast LED"
+[Fast LED library]: https://github.com/FastLED/FastLED  "Fast LED"
 
 #### Hardware
 
